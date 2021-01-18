@@ -8,10 +8,10 @@ namespace MyPurchases2021
         {
             // switch   Add, Remove, Edit, Show, Purchased, Exit
             // switch2  All, only 1-priority, only 2-priority,only 3-priority
-           // method sort
+            // method sort
 
-           // Purchase (rendering screen with all goods and 1, then choose and write id of good, 
-           // after delete good from DB)
+            // Purchase (rendering screen with all goods and 1, then choose and write id of good, 
+            // after delete good from DB)
 
         }
     }
