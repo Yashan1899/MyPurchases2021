@@ -14,6 +14,7 @@ namespace MyPurchases2021
             var edit = new Edit();
             var remove = new Remove();
             var show = new Show();
+            var purchased = new Purchased();
 
             bool flag = true;
             while (flag)
@@ -44,7 +45,7 @@ namespace MyPurchases2021
                             remove.RemoveEquipment();
                             break;
                         case 5:
-                           
+                            purchased.PurchasedEquipment();
                             break;
                         case 6:
                             flag = false;
@@ -59,14 +60,6 @@ namespace MyPurchases2021
                     Console.ForegroundColor = color;
                 }
             }
-            
-           
-            // switch2  All, only 1-priority, only 2-priority,only 3-priority
-            // method sort
-
-            // Purchase (rendering screen with all goods and 1, then choose and write id of good, 
-            // after delete good from DB)
-
         }
     }
 }
