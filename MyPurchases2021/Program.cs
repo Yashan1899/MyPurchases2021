@@ -12,6 +12,7 @@ namespace MyPurchases2021
             };
             var add = new Add();
             var edit = new Edit();
+            var remove = new Remove();
 
             bool flag = true;
             while (flag)
@@ -39,7 +40,7 @@ namespace MyPurchases2021
                             edit.EditEquipment();
                             break;
                         case 4:
-                           
+                            remove.RemoveEquipment();
                             break;
                         case 5:
                            
