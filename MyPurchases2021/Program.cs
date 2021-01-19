@@ -11,6 +11,7 @@ namespace MyPurchases2021
                 Name = "Tent", Activity = MyPurchase.KindOfActivity.Tourism, AproxPrice = 3500, Priority = 3
             };
             var add = new Add();
+            var edit = new Edit();
 
             bool flag = true;
             while (flag)
@@ -35,7 +36,7 @@ namespace MyPurchases2021
                             add.AddEquipment(myPurchase);
                             break;
                         case 3:
-                          
+                            edit.EditEquipment();
                             break;
                         case 4:
                            

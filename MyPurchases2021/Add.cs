@@ -48,7 +48,7 @@ namespace MyPurchases2021
         /// <summary>
         /// template-method for TryParse to Int
         /// </summary>
-        private static int ParseInt(string name)
+        public static int ParseInt(string name)
         {
             while (true)
             {
