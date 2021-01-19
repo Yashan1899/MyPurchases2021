@@ -13,6 +13,7 @@ namespace MyPurchases2021
             var add = new Add();
             var edit = new Edit();
             var remove = new Remove();
+            var show = new Show();
 
             bool flag = true;
             while (flag)
@@ -31,7 +32,7 @@ namespace MyPurchases2021
                     switch (number)
                     {
                         case 1:
-                           
+                            show.ShowEquipment();
                             break;
                         case 2:
                             add.AddEquipment(myPurchase);
